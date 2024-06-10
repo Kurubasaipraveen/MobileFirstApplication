@@ -1,0 +1,57 @@
+/* SignIn.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.centered-container {
+  width: 300px; /* Adjust as needed */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.centered-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.centered-container input[type='email'],
+.centered-container input[type='password'] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.centered-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.centered-container button.forgotPassword-btn {
+  background-color: #007bff;
+  margin-top: 10px; /* Add margin to create space between the sign-in button and forgot password button */
+}
+
+.centered-container button:hover {
+  background-color: #45a049;
+  
+}
+
+.centered-container button.forgotPassword-btn:hover {
+  background-color: #0056b3;
+  margin: 10px;
+}
